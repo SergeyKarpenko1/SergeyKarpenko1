@@ -45,18 +45,7 @@
 
 #### **Глубокое обучение**
 
-[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-%230083BD?style=for-the-badge&logo=python&logoColor=white)] 
-[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)  
-[![Transformers](https://img.shields.io/badge/Transformers-%23FF4500?style=for-the-badge&logo=transformers&logoColor=white)](https://huggingface.co/transformers/)  
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23FFD700?style=for-the-badge&logo=Hugging%20Face&logoColor=black)](https://huggingface.co/)  
-[![OpenAI](https://img.shields.io/badge/OpenAI-%2301051E?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)  
-[![LoRA](https://img.shields.io/badge/LoRA-%23FFA500?style=for-the-badge&logo=LoRA&logoColor=white)](https://arxiv.org/abs/2106.09685)  
-[![PEFT](https://img.shields.io/badge/PEFT-%23007ACC?style=for-the-badge&logo=peft&logoColor=white)](https://github.com/huggingface/peft)  
-[![RAG](https://img.shields.io/badge/RAG-%23FFD700?style=for-the-badge&logo=Hugging%20Face&logoColor=black)](https://huggingface.co/blog/rag)  
-[![LangChain](https://img.shields.io/badge/LangChain-%23007ACC?style=for-the-badge&logo=LangChain&logoColor=white)](https://langchain.com/)  
-[![Chroma](https://img.shields.io/badge/Chroma-%2300C4CC?style=for-the-badge&logo=chroma&logoColor=white)](https://www.trychroma.com/)  
-[![Crawl4AI](https://img.shields.io/badge/Crawl4AI-%23000000?style=for-the-badge)] 
-[![CrewAI](https://img.shields.io/badge/CrewAI-%23007ACC?style=for-the-badge)]  
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-%230083BD?style=for-the-badge&logo=python&logoColor=white)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/) [![Transformers](https://img.shields.io/badge/Transformers-%23FF4500?style=for-the-badge&logo=transformers&logoColor=white)](https://huggingface.co/transformers/) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23FFD700?style=for-the-badge&logo=Hugging%20Face&logoColor=black)](https://huggingface.co/) [![OpenAI](https://img.shields.io/badge/OpenAI-%2301051E?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/) [![LoRA](https://img.shields.io/badge/LoRA-%23FFA500?style=for-the-badge&logo=LoRA&logoColor=white)](https://arxiv.org/abs/2106.09685) [![PEFT](https://img.shields.io/badge/PEFT-%23007ACC?style=for-the-badge&logo=peft&logoColor=white)](https://github.com/huggingface/peft) [![RAG](https://img.shields.io/badge/RAG-%23FFD700?style=for-the-badge&logo=Hugging%20Face&logoColor=black)](https://huggingface.co/blog/rag) [![LangChain](https://img.shields.io/badge/LangChain-%23007ACC?style=for-the-badge&logo=LangChain&logoColor=white)](https://langchain.com/) [![Chroma](https://img.shields.io/badge/Chroma-%2300C4CC?style=for-the-badge&logo=chroma&logoColor=white)](https://www.trychroma.com/) [![Crawl4AI](https://img.shields.io/badge/Crawl4AI-%23000000?style=for-the-badge)](#) [![CrewAI](https://img.shields.io/badge/CrewAI-%23007ACC?style=for-the-badge)](#)
 
 
 #### **DevOps и прочее**:
