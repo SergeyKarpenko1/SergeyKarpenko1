@@ -6,7 +6,9 @@
 
 # Привет, меня зовут Сергей!
 
-## Я AI Engineer с более чем 3-летним опытом разработки end-to-end NLP, RAG, AI ассистентов и агентов!
+## Я AI/ML Engineer с более чем 3-летним опытом разработки end-to-end NLP, RAG, AI ассистентов и агентов!
+
+> AI/ML-инженер, специализирующийся на построении интеллектуальных систем — от RAG-пайплайнов до production-готовых AI-агентов. Помогаю компаниям автоматизировать процессы с помощью LLM.
 
 ### В своей работе я:
 
@@ -27,6 +29,17 @@
 ⭑ Интегрирую LLM (GPT-4o-mini, Hugging Face Transformers) в production-среду
 
 ⭑ Обеспечиваю мониторинг и масштабируемость AI-сервисов (LangSmith/LangFuse)
+
+## 🚀 Мои проекты
+
+| Проект | Описание | Стек |
+|--------|----------|------|
+| [🚗 LangGraph DIY Car Agent](https://github.com/SergeyKarpenko1/LangGraph-DIY-car-agent) | Многошаговый AI-ассистент для DIY детейлинга автомобиля на LangGraph. Гибридный ретривер (ChromaDB MMR + BM25 + reranker) вынесен в отдельный MCP-сервер. Включает human-in-the-loop через `interrupt`, SSE backend на FastAPI и Streamlit UI с отображением внутренних шагов графа. Поддерживает Docker/docker-compose деплой. | LangGraph, LangChain, FastAPI, ChromaDB, BM25, Streamlit, Docker |
+| [🤖 SGR Agent ING](https://github.com/SergeyKarpenko1/SGR_Agent_ING) | Консольный tool-calling агент с планированием и верификацией ответов на основе Википедии. Пайплайн: `GeneratePlanTool` → `wiki_search` / `wiki_page_extract` → `FinalAnswerTool`. Реализован `SafeToolCallingAgent` для graceful fallback при нестандартных ответах моделей. Поддерживает **A2A (Agent-to-Agent) протокол** — агент публикует `AgentCard` и принимает запросы от других агентов по HTTP. | Python, OpenRouter, LangChain, A2A, FastAPI, uv |
+| [⚡ FastAPI + llama.cpp](https://github.com/SergeyKarpenko1/FastAPI_with_Llamacpp) | Production-ready REST API сервис для запуска локальных LLM (GGUF-формат) через `llama-cpp-python`. Включает эндпоинты `/health` и `/predict`, Pydantic-схемы, асинхронный load generator с параллельными воркерами для нагрузочного тестирования. Полная контейнеризация через Docker и docker-compose (API + load generator). | FastAPI, llama.cpp, Uvicorn, Docker, httpx, Pydantic |
+| [📚 Moodle RAG](https://github.com/SergeyKarpenko1/Moodle_RAG) | End-to-end RAG-система для образовательной платформы Moodle. Полный пайплайн: краулинг документации через `crawl4ai` + Playwright → очистка и нарезка на чанки → индексация в ChromaDB → RAG API на FastAPI с генерацией ответов через `mlx-lm` (Qwen2.5-7B-Instruct-4bit). Возвращает ответ со ссылками на источники и YouTube-материалы. | crawl4ai, LangChain, ChromaDB, FastAPI, mlx-lm, Qwen2.5 |
+| [📝 CrewAI README Generator](https://github.com/SergeyKarpenko1/CrewAI_creating_readmemd) | Мультиагентная система автоматической генерации README.md на базе CrewAI. Три специализированных агента (сборщик структуры → ридер контента → генератор документации) работают последовательно через кастомный инструмент `RecursiveDirectoryScanner`. Поддерживает двуязычный вывод (EN/RU), конфигурацию через YAML. Интегрирован с Claude 3.7 Sonnet via OpenRouter. | CrewAI, LangChain, Claude 3.7 Sonnet, OpenRouter, Python |
+| [⚖️ RAG Legal Assistant](https://github.com/SergeyKarpenko1/RAG_Legal_assistant) | RAG-прототип для анализа судебных решений и юридических документов РФ. Полный ML-пайплайн: парсинг PDF через Crawl4AI, **файн-тюнинг эмбеддингов** на домен-специфичных юридических данных (LoRA + SentenceTransformers), сравнительный бенчмарк стратегий чанкинга, векторный поиск через ChromaDB. Поддерживает решения арбитражных судов и судов общей юрисдикции. | ChromaDB, SentenceTransformers, LoRA, Crawl4AI, LangChain, Jupyter |
 
 ### Стек технологий:
 
